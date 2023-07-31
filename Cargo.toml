@@ -14,3 +14,6 @@ reqwest = { version = "0.11", features = ["blocking", "json"] }
 quicli = "0.4.0"
 structopt = "0.3.26"
 clap = { version = "4.3.17", features = ["derive"] }
+hyper = { version = "0.14", features = ["full"] }
+lazy_static = "1.4"
+config-file = "0.2.3"
